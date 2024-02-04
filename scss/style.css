@@ -1,0 +1,15 @@
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main.home {
+  margin: 0 auto;
+  height: 90vh;
+  width: 100%;
+  background: #ffe5b4;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}/*# sourceMappingURL=style.css.map */
