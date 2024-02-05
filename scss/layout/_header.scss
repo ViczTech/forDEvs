@@ -1,0 +1,7 @@
+.navbar{
+    background-color: black;
+    padding: 30px;
+    @media screen and (max-width: $Mobile-L){
+        padding: 40px;
+    }
+}
