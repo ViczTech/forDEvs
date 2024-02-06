@@ -1,3 +1,5 @@
+// HOME PAGE SIZING AND STYLING FOR ALL PORTS
+//ALL SCREENS ABOVE 1440PX WIDTH
 @media screen and (max-width:5000px){
 main.home{
     margin: 0 auto;
@@ -6,36 +8,36 @@ main.home{
     height: 60vh;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    //STYLING FOR THE HOME CONTENT CONAINER
     .container{
         margin: 0 auto;
-        max-width: $laptop;
+        max-width: $laptop-L;
         width: 100%;
         height: 100%;
-        padding-top: 40px;
-        
-        @media screen and (max-width: $Mobile-L) {
-            padding-top: 0px;
-        }
     }
 }
 }
+//MIN 1440PX SCREENS
 @media screen and (min-width:$laptop) {
     main.home {
-        height: 70vh;
+        height: 90vh;
     }
 }
+//MIN 1024PX SCREENS
 @media screen and (min-width:$Tablet-L) {
     main.home {
         height: 50vh;
     }
 }
-@media screen and (min-width:$Mobile-L) {
+//MIN OF 450PX SCREENS
+@media screen and (max-width:$Mobile-L) {
     main.home {
         height: 92vh;
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
     }
 }
+//MIN OF 320PX SCREENS
 @media screen and (min-width:$Mobile-S) {
     main.home {
         height: 85vh;
