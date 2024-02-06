@@ -120,7 +120,7 @@ body {
     border-bottom-right-radius: 10px;
     box-shadow: 0.5px 0.5px 12px rgba(109, 143, 255, 0.3);
     flex-direction: column;
-    background-color: orange;
+    background-color: rgba(253, 231, 221, 0.8117647059);
     position: absolute;
     top: -34px;
     width: 250px;
