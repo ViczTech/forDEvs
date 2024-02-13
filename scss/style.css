@@ -47,7 +47,7 @@ main.home .container .content .text {
 main.home .container .content .text h1 {
   display: inline-block;
   max-width: 400px;
-  margin-top: 12vh;
+  margin-top: 15vh;
   color: rgb(0, 0, 135);
   animation: slideIn 0.5s ease-in;
 }
@@ -74,7 +74,7 @@ main.home .container .content .img {
     height: 50vh;
   }
 }
-@media screen and (max-width: 589px) {
+@media screen and (max-width: 700px) {
   .content {
     flex-direction: column;
   }
@@ -86,9 +86,10 @@ main.home .container .content .img {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
   }
   .content .text p {
-    margin-top: 15vh;
+    margin-top: 12vh;
     text-align: center;
   }
 }
@@ -161,7 +162,7 @@ main.home .container .content .img {
   display: none;
 }
 
-@media screen and (max-width: 589px) {
+@media screen and (max-width: 700px) {
   .hide {
     display: none !important;
   }

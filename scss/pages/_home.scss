@@ -41,7 +41,7 @@ main.home{
                 h1{
                     display: inline-block;
                     max-width: 400px;
-                    margin-top: 12vh;
+                    margin-top: 15vh;
                     color: rgb(0, 0, 135);
                     animation: slideIn 0.5s ease-in;
                     
@@ -88,9 +88,10 @@ main.home{
                 right: 0;
                 margin-left: auto;
                 margin-right: auto;
+                font-size: 20px;
             }
             p{
-                margin-top: 15vh;
+                margin-top: 12vh;
                 text-align: center;
             }
         }
