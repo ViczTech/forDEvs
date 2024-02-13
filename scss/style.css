@@ -86,7 +86,7 @@ main.home .container .content .img {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 25px;
   }
   .content .text p {
     margin-top: 12vh;
@@ -191,6 +191,7 @@ main.home .container .content .img {
     padding: 20px;
     animation: slideIn 0.5s ease-in-out;
     margin-left: 0px;
+    z-index: 1000px;
   }
   .navbar .nav-item .contact {
     margin: -6px 0px 2px -8px;
